@@ -1,43 +1,43 @@
-import React from 'react';
-import { Dumbbell, Activity, Heart, Zap, Clock, Users } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { Dumbbell, Activity, Heart, Zap, Clock, Users } from 'lucide-react';
+import { images } from '../../data/images';
 
 const programs = [
   {
     icon: Dumbbell,
     title: 'Strength Training',
     description: 'Build muscle and power with our advanced strength equipment and free weights area.',
-    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop'
+    image: images.programs[0]
   },
   {
     icon: Activity,
     title: 'CrossFit & HIIT',
     description: 'High-intensity interval training to burn calories and boost endurance fast.',
-    image: 'https://images.unsplash.com/photo-1517963879466-e1b54ebd512d?q=80&w=2069&auto=format&fit=crop'
+    image: images.programs[1]
   },
   {
     icon: Heart,
     title: 'Cardio Fitness',
     description: 'State-of-the-art treadmills, ellipticals, and rowers for heart health.',
-    image: 'https://images.unsplash.com/photo-1576678927484-cc907957088c?q=80&w=1974&auto=format&fit=crop'
+    image: images.programs[2]
   },
   {
     icon: Zap,
     title: 'Weight Loss',
     description: 'Specialized programs designed to help you shed pounds effectively and sustainably.',
-    image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop'
+    image: images.programs[3]
   },
   {
     icon: Users,
     title: 'Group Classes',
     description: 'Join Zumba, Yoga, and Spin classes. Sweat together, grow together.',
-    image: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1975&auto=format&fit=crop'
+    image: images.programs[4]
   },
   {
     icon: Clock,
     title: 'Personal Training',
     description: 'One-on-one coaching to reach your specific fitness goals with expert guidance.',
-    image: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=2070&auto=format&fit=crop'
+    image: images.programs[5]
   }
 ];
 

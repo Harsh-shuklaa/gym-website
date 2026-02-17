@@ -6,14 +6,14 @@ const testimonials = [
   {
     name: "Jessica Parker",
     role: "Member since 2023",
-    feedback: "The vibes at FitLife are unmatched! The trainers are super supportive and the equipment is top-notch. I've lost 15kg in 6 months and never felt better.",
+    feedback: "The vibes at D-Hulk Gym are unmatched! The trainers are super supportive and the equipment is top-notch. I've lost 15kg in 6 months and never felt better.",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop",
     rating: 5,
   },
   {
     name: "David Chen",
     role: "Pro Athlete",
-    feedback: "As a professional athlete, I need facilities that can keep up with my training. FitLife has everything I need for strength and conditioning. Highly recommended!",
+    feedback: "As a professional athlete, I need facilities that can keep up with my training. D-Hulk Gym has everything I need for strength and conditioning. Highly recommended!",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop",
     rating: 5,
   },

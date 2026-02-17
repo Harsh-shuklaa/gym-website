@@ -36,7 +36,7 @@ const Navbar = () => {
           <div className="p-2 bg-gym-600 rounded-lg group-hover:bg-neon-red transition-colors duration-300">
             <Dumbbell className="text-white w-6 h-6" />
           </div>
-          <span className="text-3xl font-bebas text-white tracking-wider">FIT<span className="text-gym-600 group-hover:text-neon-red transition-colors">LIFE</span></span>
+          <span className="text-3xl font-bebas text-white tracking-wider">D-HULK <span className="text-gym-600 group-hover:text-neon-red transition-colors">GYM</span></span>
         </Link>
 
         {/* Desktop Menu */}

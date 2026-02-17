@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Play } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import heroBg from '../../assets/images/hero.jpg';
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-transparent z-10"></div>
         <img 
-          src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop" 
+          src={heroBg} 
           alt="Gym Background" 
           className="w-full h-full object-cover"
         />
@@ -24,7 +25,7 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-neon-red font-bold tracking-widest uppercase mb-4 text-lg">
-              Welcome to the Revolution
+              Welcome to D-Hulk Gym Rohtak
             </h2>
             <h1 className="text-6xl md:text-8xl font-bebas text-white leading-tight mb-6">
               Transform Your <span className="text-stroke-1 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Body</span> <br />
@@ -47,9 +48,9 @@ const Hero = () => {
             </div>
 
             <div className="mt-16 flex gap-12 border-t border-white/10 pt-8">
-              <Stat number="5000+" label="Members" />
-              <Stat number="30+" label="Expert Trainers" />
-              <Stat number="24/7" label="Access" />
+              <Stat number="4.9" label="Rating (38 Reviews)" />
+              <Stat number="24/7" label="Open Hours" />
+              <Stat number="Elite" label="Trainers" />
             </div>
           </motion.div>
         </div>

@@ -5,21 +5,21 @@ import { Check, X } from 'lucide-react';
 const plans = [
     {
       name: "Basic",
-      price: "29",
+      price: "999",
       features: ["Gym Access", "Locker Room", "Free Wifi", "1 Group Class/Month"],
       notIncluded: ["Personal Training", "Sauna", "Nutrition Plan"],
       highlight: false,
     },
     {
       name: "Standard",
-      price: "49",
+      price: "1499",
       features: ["All Basic Features", "Unlimited Group Classes", "Nutritional Guide", "1 Personal Training Session", "Sauna Access"],
       notIncluded: ["Unlimited PT", "Massage"],
       highlight: true,
     },
     {
       name: "Premium",
-      price: "89",
+      price: "1999",
       features: ["All Standard Features", "Unlimited Personal Training", "Massage Therapy", "Exclusive Lounge Access", "Free Merchandise"],
       notIncluded: [],
       highlight: false,
@@ -51,7 +51,7 @@ const Pricing = () => {
                         >
                             <h4 className="text-2xl font-bebas text-white mb-2">{plan.name}</h4>
                             <div className="mb-6 flex items-baseline gap-1">
-                                <span className="text-5xl font-bold text-white">${plan.price}</span>
+                                <span className="text-5xl font-bold text-white">₹{plan.price}</span>
                                 <span className="text-gray-400 font-medium">/ month</span>
                             </div>
 

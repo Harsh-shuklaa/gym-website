@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand & About */}
           <div>
-            <Link to="/" className="text-4xl font-bebas text-white tracking-wider mb-6 block">FIT<span className="text-gym-600">LIFE</span></Link>
+            <Link to="/" className="text-4xl font-bebas text-white tracking-wider mb-6 block">D-HULK <span className="text-gym-600">GYM</span></Link>
             <p className="text-sm leading-relaxed mb-6 text-gray-400">
-              Transform your body and mind with our world-class facilities, expert trainers, and scientifically designed programs. Join the revolution today.
+              Transform your body at Rohtak's premier fitness destination. Rated 4.9 stars by our community. Join the D-Hulk family today.
             </p>
             <div className="flex gap-4">
               <SocialIcon Icon={Facebook} />
@@ -51,15 +51,15 @@ const Footer = () => {
             <ul className="space-y-4 mb-8">
               <li className="flex items-start gap-3 text-sm">
                 <MapPin className="w-5 h-5 text-gym-600 shrink-0" />
-                <span>123 Fitness Blvd, Gym City, GC 12345</span>
+                <span>Delhi Bypass Road, Sheila Bypass Rd, opp. Reliance Smart Store, Rohtak, Haryana 124001</span>
               </li>
               <li className="flex items-center gap-3 text-sm">
                 <Phone className="w-5 h-5 text-gym-600 shrink-0" />
-                <span>+1 (234) 567-890</span>
+                <span>+91 90347 77453</span>
               </li>
               <li className="flex items-center gap-3 text-sm">
                 <Mail className="w-5 h-5 text-gym-600 shrink-0" />
-                <span>support@fitlife.com</span>
+                <span>contact@dhulkgym.com</span>
               </li>
             </ul>
             
@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-          <p>© 2026 FitLife Gym. All rights reserved.</p>
+          <p>© 2026 D-Hulk Gym. All rights reserved.</p>
           <div className="flex gap-6">
             <span className="hover:text-white cursor-pointer transition-colors">Privacy Policy</span>
             <span className="hover:text-white cursor-pointer transition-colors">Terms of Service</span>

@@ -1,30 +1,30 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Instagram, Twitter, Linkedin, Star } from 'lucide-react';
+import { images } from '../../data/images';
 
 const trainers = [
   {
     name: "Alex Drago",
     specialty: "Strength & Conditioning",
-    image: "https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=1974&auto=format&fit=crop",
+    image: images.trainers[0],
     rating: 5.0,
   },
   {
     name: "Sarah Fit",
     specialty: "Yoga & Flexibility",
-    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=2070&auto=format&fit=crop",
+    image: images.trainers[1],
     rating: 4.9,
   },
   {
     name: "Mike Power",
     specialty: "CrossFit Expert",
-    image: "https://images.unsplash.com/photo-1533681904393-9ab6eea9e72e?q=80&w=1974&auto=format&fit=crop",
+    image: images.trainers[2],
     rating: 4.8,
   },
   {
     name: "Emily Core",
     specialty: "Weight Loss Coach",
-    image: "https://images.unsplash.com/photo-1611672585731-fa10603fb9e0?q=80&w=1974&auto=format&fit=crop",
+    image: images.trainers[3],
     rating: 4.9,
   }
 ];
