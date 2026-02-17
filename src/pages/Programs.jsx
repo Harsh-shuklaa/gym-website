@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Dumbbell, Activity, Heart, Zap, Clock, Users, ArrowRight } from 'lucide-react';
+import { images } from '../data/images.js';
 
 const programs = [
   {
@@ -8,51 +9,51 @@ const programs = [
     title: 'Strength Training',
     description: 'Build muscle and power with our advanced strength equipment and free weights area. Our expert trainers will guide you through compound movements and isolation exercises.',
     benefits: ['Increase Muscle Mass', 'Boost Metabolism', 'Improve Bone Density'],
-    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop'
+    image: images.programs[0]
   },
   {
     icon: Activity,
     title: 'CrossFit & HIIT',
     description: 'High-intensity interval training to burn calories and boost endurance fast. A combination of functional movements performed at high intensity.',
     benefits: ['Burn Calories Fast', 'Improve Endurance', 'Full Body Workout'],
-    image: 'https://images.unsplash.com/photo-1517963879466-e1b54ebd512d?q=80&w=2069&auto=format&fit=crop'
+    image: images.programs[1]
   },
   {
     icon: Heart,
     title: 'Cardio Fitness',
     description: 'State-of-the-art treadmills, ellipticals, and rowers for heart health. dedicated zones for low and high intensity cardio sessions.',
     benefits: ['Improve Heart Health', 'Reduce Stress', 'Boost Energy'],
-    image: 'https://images.unsplash.com/photo-1576678927484-cc907957088c?q=80&w=1974&auto=format&fit=crop'
+    image: images.programs[2]
   },
   {
     icon: Zap,
     title: 'Weight Loss Program',
     description: 'Specialized programs designed to help you shed pounds effectively and sustainably. Includes nutritional guidance and regular progress tracking.',
     benefits: ['Sustainable Results', 'Nutritional Support', 'Regular Tracking'],
-    image: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop'
+    image: images.programs[3]
   },
   {
     icon: Users,
     title: 'Group Classes',
     description: 'Join Zumba, Yoga, and Spin classes. Sweat together, grow together. Our group classes are designed to be fun and effective.',
     benefits: ['Community Vibe', 'Motivating Instructors', 'Variety of Styles'],
-    image: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1975&auto=format&fit=crop'
+    image: images.programs[4]
   },
   {
     icon: Clock,
     title: 'Personal Training',
     description: 'One-on-one coaching to reach your specific fitness goals with expert guidance. Custom workout plans tailored to your body and goals.',
     benefits: ['Personalized Plan', 'Expert Guidance', 'Faster Results'],
-    image: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=2070&auto=format&fit=crop'
+    image: images.programs[5]
   }
 ];
-
+    
 const Programs = () => {
     return (
         <div className="pt-20 bg-gym-950 min-h-screen">
              <section className="py-20 bg-black relative">
                  <div className="absolute inset-0 opacity-40">
-                     <img src="https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?q=80&w=2069&auto=format&fit=crop" alt="Programs" className="w-full h-full object-cover" />
+                     <img src={images.programs[0]} alt="Programs" className="w-full h-full object-cover" />
                 </div>
                  <div className="absolute inset-0 bg-gradient-to-t from-gym-950 to-transparent"></div>
                  <div className="container mx-auto px-4 relative z-10 text-center">

@@ -11,14 +11,14 @@ import location from '../assets/images/location.jpg';
 import program1 from '../assets/images/program-1.jpg';
 import program2 from '../assets/images/program-2.jpg';
 import program3 from '../assets/images/program-3.jpg';
-import program4 from '../assets/images/program-2.jpg';
-import program5 from '../assets/images/program-1.jpg';
+import program4 from '../assets/images/program-4.jpg';
+import program5 from '../assets/images/program-5.jpg';
 import program6 from '../assets/images/program-6.jpg';
 
 // Trainers
 import trainer1 from '../assets/images/trainer-1.jpg';
 import trainer2 from '../assets/images/trainer-2.jpg';
-import trainer3 from '../assets/images/trainer-1.jpg';
+import trainer3 from '../assets/images/trainer-3.jpg';
 import trainer4 from '../assets/images/trainer-4.jpg';
 
 // Export object
